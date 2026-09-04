@@ -1,0 +1,50 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# JAR/driver files (don't commit large binary drivers)
+*.jar
+!lib/*.jar
+
+# Package files
+*.war
+*.ear
+
+# BlueJ files
+*.ctxt
+
+# Build folders
+target/
+build/
+bin/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets (if you externalize DB credentials later)
+.env
+*.properties.local
+config.properties
